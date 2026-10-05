@@ -29,10 +29,10 @@ pipeline {
     }
     post {
         success {
-            echo"angular application build successfully"
+            echo "angular application build successfully"
         }
         failure {
-            echo"build failed"
+            echo "build failed"
         }
     }
 }
